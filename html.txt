@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accounting Plus Nishan - Daily Quiz</title>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #000000, #9b111e);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    text-align: center;
+    padding: 30px 20px;
+  }
+  header h1 {
+    color: #ffcc00;
+    margin-bottom: 5px;
+  }
+  header p {
+    font-size: 1.2rem;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  .quiz-card {
+    background: rgba(255,255,255,0.05);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+  }
+  .quiz-card h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  .quiz-card label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  button:hover {
+    background-color: #e6b800;
+  }
+  #result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #ffcc00;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Accounting Plus Nishan</h1>
+  <p>Daily MCQ Quiz - Test Your Accounting Knowledge</p>
+</header>
+
+<div class="container">
+  <form id="quizForm">
+    
+    <div class="quiz-card">
+      <h2>1. The basic accounting equation is:</h2>
+      <label><input type="radio" name="q1" value="0"> A) Assets = Liabilities + Income</label>
+      <label><input type="radio" name="q1" value="1"> B) Assets = Liabilities + Owner’s Equity</label>
+      <label><input type="radio" name="q1" value="0"> C) Assets = Capital – Liabilities</label>
+      <label><input type="radio" name="q1" value="0"> D) Assets = Income – Expenses</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>2. If assets are Rs. 200,000 and liabilities are Rs. 80,000, the capital is:</h2>
+      <label><input type="radio" name="q2" value="1"> A) Rs. 120,000</label>
+      <label><input type="radio" name="q2" value="0"> B) Rs. 280,000</label>
+      <label><input type="radio" name="q2" value="0"> C) Rs. 80,000</label>
+      <label><input type="radio" name="q2" value="0"> D) Rs. 100,000</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>3. When the owner introduces additional capital, the accounting equation will show:</h2>
+      <label><input type="radio" name="q3" value="0"> A) Increase in assets, decrease in liabilities</label>
+      <label><input type="radio" name="q3" value="1"> B) Increase in assets, increase in owner’s equity</label>
+      <label><input type="radio" name="q3" value="0"> C) Decrease in assets, increase in owner’s equity</label>
+      <label><input type="radio" name="q3" value="0"> D) No change in the equation</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>4. Purchase of furniture for cash will:</h2>
+      <label><input type="radio" name="q4" value="0"> A) Increase total assets</label>
+      <label><input type="radio" name="q4" value="0"> B) Decrease total assets</label>
+      <label><input type="radio" name="q4" value="1"> C) Not change total assets</label>
+      <label><input type="radio" name="q4" value="0"> D) Increase liabilities</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>5. If a business pays Rs. 5,000 to a creditor, the effect is:</h2>
+      <label><input type="radio" name="q5" value="0"> A) Assets increase, liabilities decrease</label>
+      <label><input type="radio" name="q5" value="1"> B) Assets decrease, liabilities decrease</label>
+      <label><input type="radio" name="q5" value="0"> C) Assets decrease, owner’s equity increase</label>
+      <label><input type="radio" name="q5" value="0"> D) No effect on liabilities</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>6. A debtor pays Rs. 10,000 in cash. What is the effect?</h2>
+      <label><input type="radio" name="q6" value="1"> A) Increase in cash, decrease in debtors</label>
+      <label><input type="radio" name="q6" value="0"> B) Decrease in cash, increase in debtors</label>
+      <label><input type="radio" name="q6" value="0"> C) Increase in liabilities, decrease in cash</label>
+      <label><input type="radio" name="q6" value="0"> D) Increase in assets only</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>7. When goods are sold on credit, the effect on the accounting equation is:</h2>
+      <label><input type="radio" name="q7" value="1"> A) Increase in assets and increase in owner’s equity</label>
+      <label><input type="radio" name="q7" value="0"> B) Increase in assets and decrease in liabilities</label>
+      <label><input type="radio" name="q7" value="0"> C) Increase in liabilities and decrease in assets</label>
+      <label><input type="radio" name="q7" value="0"> D) No effect</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>8. If the owner withdraws cash for personal use, the accounting equation will show:</h2>
+      <label><input type="radio" name="q8" value="1"> A) Decrease in assets and decrease in owner’s equity</label>
+      <label><input type="radio" name="q8" value="0"> B) Increase in assets and increase in liabilities</label>
+      <label><input type="radio" name="q8" value="0"> C) Increase in liabilities and decrease in assets</label>
+      <label><input type="radio" name="q8" value="0"> D) Increase in equity only</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>9. Which of the following transactions increases both assets and liabilities?</h2>
+      <label><input type="radio" name="q9" value="1"> A) Purchase of goods on credit</label>
+      <label><input type="radio" name="q9" value="0"> B) Payment to creditors</label>
+      <label><input type="radio" name="q9" value="0"> C) Cash sales</label>
+      <label><input type="radio" name="q9" value="0"> D) Owner draws cash</label>
+    </div>
+
+    <div class="quiz-card">
+      <h2>10. If assets are Rs. 250,000 and capital is Rs. 150,000, what is the amount of liabilities?</h2>
+      <label><input type="radio" name="q10" value="1"> A) Rs. 100,000</label>
+      <label><input type="radio" name="q10" value="0"> B) Rs. 250,000</label>
+      <label><input type="radio" name="q10" value="0"> C) Rs. 400,000</label>
+      <label><input type="radio" name="q10" value="0"> D) Rs. 150,000</label>
+    </div>
+
+    <button type="button" onclick="calculateScore()">Submit Answers</button>
+  </form>
+
+  <div id="result"></div>
+</div>
+
+<script>
+function calculateScore() {
+  let score = 0;
+  for (let i = 1; i <= 10; i++) {
+    let q = document.querySelector('input[name="q'+i+'"]:checked');
+    if (q && q.value === "1") {
+      score++;
+    }
+  }
+  document.getElementById('result').innerHTML = "Your score: " + score + " / 10";
+}
+</script>
+
+</body>
+</html>
